@@ -1,0 +1,3 @@
+# Canon
+## Authors
+Joy Hong
