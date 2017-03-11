@@ -1,24 +1,30 @@
-/* PLUGINS */
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 /* BASE STYLES */
 body {
-  background: #333;
+  background: #000;
   color: #ffffff;
   font-family: "skolar-sans-latin", sans-serif;
   font-size: 16px;
   font-weight: 200;
-  letter-spacing: -0.5; }
+  letter-spacing: -0.5;
+  line-height: 1.5; }
 
 h1 {
-  font-size: 46px;
+  font-size: 48px;
   color: #EE1B22;
   font-weight: 200; }
 
 h2 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 200; }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400; }
 
 ul {
@@ -27,19 +33,135 @@ ul {
 a {
   color: #ffffff; }
 
+.wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1em; }
+  .wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 /* LAYOUTS */
 /* FOOTER STYLES */
 footer {
-  font-size: 12px; }
+  font-size: 14px; }
 
 .site-footer h2 {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 1.5px; }
 
 .footer-list ul {
   list-style-type: none;
   padding: 0; }
+
+.hero {
+  display: block;
+  text-align: center; }
+  .hero::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .hero .featured h1, .hero .featured h2 {
+    margin: 0;
+    padding: 0; }
+  .hero .featured img {
+    max-width: 100%; }
+  .hero .supporting {
+    margin: 0 auto;
+    max-width: 780px; }
+
+.box-contents {
+  display: block;
+  margin: 60px 0; }
+  .box-contents::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .box-contents .diagram {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 100%; }
+    .box-contents .diagram:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 768px) {
+      .box-contents .diagram {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 48.821174201%; }
+        .box-contents .diagram:last-child {
+          margin-right: 0; } }
+    .box-contents .diagram img {
+      max-width: 100%; }
+  .box-contents .contents {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 100%; }
+    .box-contents .contents:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 768px) {
+      .box-contents .contents {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 48.821174201%; }
+        .box-contents .contents:last-child {
+          margin-right: 0; } }
+    .box-contents .contents h2 {
+      text-align: center; }
+      @media screen and (min-width: 768px) {
+        .box-contents .contents h2 {
+          text-align: left; } }
+
+.feature-contents {
+  display: block;
+  margin: 60px 0; }
+  .feature-contents::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .feature-contents .diagram {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 100%; }
+    .feature-contents .diagram:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 768px) {
+      .feature-contents .diagram {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 48.821174201%; }
+        .feature-contents .diagram:last-child {
+          margin-right: 0; } }
+    .feature-contents .diagram img {
+      max-width: 100%; }
+  .feature-contents .contents {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 100%; }
+    .feature-contents .contents:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 768px) {
+      .feature-contents .contents {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 48.821174201%; }
+        .feature-contents .contents:last-child {
+          margin-right: 0; } }
+    .feature-contents .contents h2 {
+      text-align: center; }
+      @media screen and (min-width: 768px) {
+        .feature-contents .contents h2 {
+          text-align: left; } }
 
 /*# sourceMappingURL=app.css.map */

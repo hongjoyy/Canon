@@ -1,0 +1,17 @@
+.feature-contents
+  @include row
+  margin: 60px 0
+  .diagram
+    @include span-columns(12)
+    @include media($tablet)
+      @include span-columns(6)
+    img
+      max-width: 100%
+  .contents
+    @include span-columns(12)
+    @include media($tablet)
+      @include span-columns(6)
+    h2
+      text-align: center
+      @include media($tablet)
+        text-align: left

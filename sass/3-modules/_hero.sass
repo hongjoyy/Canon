@@ -1,0 +1,30 @@
+.hero
+  @include row
+  text-align: center
+  .featured
+    h1, h2
+      margin: 0
+      padding: 0
+    img
+      max-width: 100%
+  .supporting
+    margin: 0 auto
+    max-width: 780px
+
+.box-contents
+  @include row
+  margin: 60px 0
+  .diagram
+    @include span-columns(12)
+    @include media($tablet)
+      @include span-columns(6)
+    img
+      max-width: 100%
+  .contents
+    @include span-columns(12)
+    @include media($tablet)
+      @include span-columns(6)
+    h2
+      text-align: center
+      @include media($tablet)
+        text-align: left

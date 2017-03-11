@@ -4,9 +4,10 @@ body
   background: $black
   color: $white
   font-family: $font-stack
-  font-size: $font-size + 2
+  font-size: $font-size
   font-weight: $light
   letter-spacing: $tight
+  line-height: $line-height
 
 h1
   font-size: $font-size + 32
@@ -26,4 +27,7 @@ ul
 
 a
   color: $white
-  
+
+.wrapper
+  @include outer-container
+  padding: 0 1em
