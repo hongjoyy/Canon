@@ -6,28 +6,59 @@ body
   font-family: $font-stack
   font-size: $font-size
   font-weight: $light
-  letter-spacing: $tight
   line-height: $line-height
 
+.brand
+  +hide-text
+  +retina-image("../images/Canon-logo", 294px 61px)
+  @include background(url("/images/Canon-logo.png"))
+  background: center no-repeat
+  height: 61px
+  margin: $gutter auto
+
+.button
+  background: $red
+  padding: 1em 2em
+  font-size: $font-size
+  text-transform: $uppercase
+  text-align: center
+  margin: 2em 0
+  display: inline-block
+
 h1
-  font-size: $font-size + 32
+  font-size: em(46)
   color: $red
   font-weight: $light
 
 h2
-  font-size: $font-size + 12
+  font-size: em(24)
   font-weight: $light
+  line-height: 1.25
+  text-align: center
 
 h3
-  font-size: $font-size + 4
+  font-size: em(18)
   font-weight: $regular
 
 ul
   font-weight: $light
+  padding: 0 1em
 
 a
   color: $white
 
+a:hover
+  color: $red
+
 .wrapper
   @include outer-container
   padding: 0 1em
+
+.hero
+  margin: 0 0 100px 0
+
+.section
+  margin: 200px 0
+
+.contents
+  margin: 100px 0

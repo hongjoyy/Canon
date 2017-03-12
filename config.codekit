@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19142",
 "files": {
+	"\/css\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/app.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -73,6 +82,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/box-camera-500.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144092,
+		"inputAbbreviatedPath": "\/images\/box-camera-500.jpg",
+		"outputAbbreviatedPath": "\/images\/box-camera-500.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/box-camera-new.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 491060,
+		"inputAbbreviatedPath": "\/images\/box-camera-new.jpg",
+		"outputAbbreviatedPath": "\/images\/box-camera-new.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/box-camera.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -80,6 +111,28 @@
 		"initialSize": 181767,
 		"inputAbbreviatedPath": "\/images\/box-camera.jpg",
 		"outputAbbreviatedPath": "\/images\/box-camera.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Canon-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14856,
+		"inputAbbreviatedPath": "\/images\/Canon-logo.png",
+		"outputAbbreviatedPath": "\/images\/Canon-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Canon-logo_2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24529,
+		"inputAbbreviatedPath": "\/images\/Canon-logo_2x.png",
+		"outputAbbreviatedPath": "\/images\/Canon-logo_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -95,6 +148,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/feature-digic5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115248,
+		"inputAbbreviatedPath": "\/images\/feature-digic5.jpg",
+		"outputAbbreviatedPath": "\/images\/feature-digic5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/feature-image-capture.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -106,13 +170,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/feature-image-sensor.jpg": {
+	"\/images\/gallery_cafe.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49182,
-		"inputAbbreviatedPath": "\/images\/feature-image-sensor.jpg",
-		"outputAbbreviatedPath": "\/images\/feature-image-sensor.jpg",
+		"initialSize": 520248,
+		"inputAbbreviatedPath": "\/images\/gallery_cafe.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery_cafe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery_flowers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 502153,
+		"inputAbbreviatedPath": "\/images\/gallery_flowers.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery_flowers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery_girls.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 427093,
+		"inputAbbreviatedPath": "\/images\/gallery_girls.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery_girls.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -124,6 +210,17 @@
 		"initialSize": 1.08414e+06,
 		"inputAbbreviatedPath": "\/images\/gallery_italy.jpg",
 		"outputAbbreviatedPath": "\/images\/gallery_italy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/gallery_landscape.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 424083,
+		"inputAbbreviatedPath": "\/images\/gallery_landscape.jpg",
+		"outputAbbreviatedPath": "\/images\/gallery_landscape.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -201,6 +298,17 @@
 		"initialSize": 306810,
 		"inputAbbreviatedPath": "\/images\/specs-video.jpg",
 		"outputAbbreviatedPath": "\/images\/specs-video.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/specs_image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 569604,
+		"inputAbbreviatedPath": "\/images\/specs_image.jpg",
+		"outputAbbreviatedPath": "\/images\/specs_image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1868,6 +1976,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/sass\/1-base\/_footer.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/1-base\/_footer.sass",
+		"outputAbbreviatedPath": "\/sass\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/sass\/2-layouts\/_container.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1932,15 +2056,31 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/sass\/3-modules\/_feature.sass": {
+	"\/sass\/3-modules\/_box-contents.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/3-modules\/_feature.sass",
-		"outputAbbreviatedPath": "\/sass\/css\/_feature.css",
+		"inputAbbreviatedPath": "\/sass\/3-modules\/_box-contents.sass",
+		"outputAbbreviatedPath": "\/sass\/css\/_box-contents.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/3-modules\/_features.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/3-modules\/_features.sass",
+		"outputAbbreviatedPath": "\/sass\/css\/_features.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1973,6 +2113,70 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/3-modules\/_modules-dir.sass",
 		"outputAbbreviatedPath": "\/sass\/css\/_modules-dir.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/3-modules\/_spec-contents.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/3-modules\/_spec-contents.sass",
+		"outputAbbreviatedPath": "\/sass\/css\/_spec-contents.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/3-modules\/OLD\/_box-contents2.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/3-modules\/OLD\/_box-contents2.sass",
+		"outputAbbreviatedPath": "\/sass\/3-modules\/css\/_box-contents2.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/3-modules\/OLD\/_feature2.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/3-modules\/OLD\/_feature2.sass",
+		"outputAbbreviatedPath": "\/sass\/3-modules\/css\/_feature2.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/3-modules\/OLD\/_spec-contents.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/3-modules\/OLD\/_spec-contents.sass",
+		"outputAbbreviatedPath": "\/sass\/3-modules\/css\/_spec-contents.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

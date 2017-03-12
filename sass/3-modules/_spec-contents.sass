@@ -1,0 +1,16 @@
+// Specs contents
+
+.spec-contents
+  @include row
+
+  @include media($tablet)
+    h2
+      text-align: center
+
+  .contents
+    @include diagram-right
+    @include details-left
+    @include diagram-left
+    @include details-right
+    @include mobile-center
+    @include large-mobile-center

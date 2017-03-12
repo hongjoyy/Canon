@@ -1,0 +1,20 @@
+// Specs Content
+
+
+.spec-contents
+  @include row
+  .diagram
+    @include span-columns(12)
+    img
+      @include media($mobile)
+        @include span-columns(12)
+      @include media($tablet)
+        @include span-columns(6)
+      max-width: 100%
+      margin: 0 auto
+  .contents
+    @include span-columns(12)
+    @include media($tablet)
+      width: 50%
+    h2, h3
+      text-align: center
