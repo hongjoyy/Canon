@@ -115,24 +115,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/Canon-logo.png": {
+	"\/images\/canon-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 14856,
-		"inputAbbreviatedPath": "\/images\/Canon-logo.png",
-		"outputAbbreviatedPath": "\/images\/Canon-logo.png",
+		"inputAbbreviatedPath": "\/images\/canon-logo.png",
+		"outputAbbreviatedPath": "\/images\/canon-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/Canon-logo_2x.png": {
+	"\/images\/canon-logo_2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 24529,
-		"inputAbbreviatedPath": "\/images\/Canon-logo_2x.png",
-		"outputAbbreviatedPath": "\/images\/Canon-logo_2x.png",
+		"inputAbbreviatedPath": "\/images\/canon-logo_2x.png",
+		"outputAbbreviatedPath": "\/images\/canon-logo_2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

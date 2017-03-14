@@ -7,28 +7,35 @@ body
   font-size: $font-size
   font-weight: $light
   line-height: $line-height
+  text-align: center
 
 .brand
   +hide-text
-  +retina-image("../images/Canon-logo", 294px 61px)
-  @include background(url("/images/Canon-logo.png"))
+  +retina-image("../images/canon-logo", 294px 61px)
   background: center no-repeat
   height: 61px
-  margin: $gutter auto
+  margin: 1.25em auto
+
+.cart
+  margin: 0 auto
+  @include span-columns(6)
+  a:hover
+    color: $white
 
 .button
   background: $red
   padding: 1em 2em
-  font-size: $font-size
+  font-size: em(12)
   text-transform: $uppercase
   text-align: center
-  margin: 2em 0
   display: inline-block
+
 
 h1
   font-size: em(46)
   color: $red
   font-weight: $light
+  text-align: center
 
 h2
   font-size: em(24)
@@ -39,10 +46,12 @@ h2
 h3
   font-size: em(18)
   font-weight: $regular
+  text-align: center
 
 ul
   font-weight: $light
   padding: 0 1em
+  list-style: none
 
 a
   color: $white
@@ -52,13 +61,13 @@ a:hover
 
 .wrapper
   @include outer-container
-  padding: 0 1em
+  padding: 0 1.25em
 
 .hero
   margin: 0 0 100px 0
 
 .section
-  margin: 200px 0
+  margin: 100px 0 0
 
 .contents
-  margin: 100px 0
+  margin: 50px 0 0

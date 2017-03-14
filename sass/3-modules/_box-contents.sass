@@ -4,18 +4,8 @@
   @include row
 
   .diagram
-    @include media($mobile)
-      @include span-columns(12)
-    @include media($tablet)
-      @include span-columns(8)
+
     img
       max-width: 100%
 
   .contents
-    @include media($mobile)
-      h2
-        text-align: center
-    @include media($tablet)
-      @include span-columns(4)
-      h2
-        text-align: left

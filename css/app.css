@@ -11,36 +11,46 @@ body {
   font-family: "skolar-sans-latin", sans-serif;
   font-size: 1em;
   font-weight: 100;
-  line-height: 1.5; }
+  line-height: 1.5;
+  text-align: center; }
 
 .brand {
   overflow: hidden;
   text-indent: 101%;
   white-space: nowrap;
-  background-image: url("../images/Canon-logo.png");
-  background: url("/images/Canon-logo.png");
-  background: url("/images/Canon-logo.png");
+  background-image: url("../images/canon-logo.png");
   background: center no-repeat;
   height: 61px;
-  margin: 1.618em auto; }
+  margin: 1.25em auto; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-webkit-min-device-pixel-ratio: 1.3020833333333333), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .brand {
-      background-image: url("../images/Canon-logo_2x.png");
+      background-image: url("../images/canon-logo_2x.png");
       background-size: 294px 61px; } }
+
+.cart {
+  margin: 0 auto;
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%; }
+  .cart:last-child {
+    margin-right: 0; }
+  .cart a:hover {
+    color: #ffffff; }
 
 .button {
   background: #EE1B22;
   padding: 1em 2em;
-  font-size: 1em;
+  font-size: 0.75em;
   text-transform: uppercase;
   text-align: center;
-  margin: 2em 0;
   display: inline-block; }
 
 h1 {
   font-size: 2.875em;
   color: #EE1B22;
-  font-weight: 100; }
+  font-weight: 100;
+  text-align: center; }
 
 h2 {
   font-size: 1.5em;
@@ -50,11 +60,13 @@ h2 {
 
 h3 {
   font-size: 1.125em;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
 
 ul {
   font-weight: 100;
-  padding: 0 1em; }
+  padding: 0 1em;
+  list-style: none; }
 
 a {
   color: #ffffff; }
@@ -66,7 +78,7 @@ a:hover {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1em; }
+  padding: 0 1.25em; }
   .wrapper::after {
     clear: both;
     content: "";
@@ -76,10 +88,10 @@ a:hover {
   margin: 0 0 100px 0; }
 
 .section {
-  margin: 200px 0; }
+  margin: 100px 0 0; }
 
 .contents {
-  margin: 100px 0; }
+  margin: 50px 0 0; }
 
 .site-footer {
   margin: 200px 0 0;
@@ -98,6 +110,11 @@ a:hover {
     font-size: 0.75em; }
 
 /* LAYOUTS */
+header {
+  margin: 1em 0 2em; }
+  header img {
+    max-width: 100%; }
+
 /* FOOTER STYLES */
 .site-footer .footer-list {
   float: left;
@@ -148,37 +165,8 @@ a:hover {
     clear: both;
     content: "";
     display: table; }
-  @media screen and (min-width: 320px) {
-    .box-contents .diagram {
-      float: left;
-      display: block;
-      margin-right: 2.3576515979%;
-      width: 100%; }
-      .box-contents .diagram:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 768px) {
-    .box-contents .diagram {
-      float: left;
-      display: block;
-      margin-right: 2.3576515979%;
-      width: 65.8807828007%; }
-      .box-contents .diagram:last-child {
-        margin-right: 0; } }
   .box-contents .diagram img {
     max-width: 100%; }
-  @media screen and (min-width: 320px) {
-    .box-contents .contents h2 {
-      text-align: center; } }
-  @media screen and (min-width: 768px) {
-    .box-contents .contents {
-      float: left;
-      display: block;
-      margin-right: 2.3576515979%;
-      width: 31.7615656014%; }
-      .box-contents .contents:last-child {
-        margin-right: 0; }
-      .box-contents .contents h2 {
-        text-align: left; } }
 
 .feature-contents {
   display: block; }
@@ -186,55 +174,8 @@ a:hover {
     clear: both;
     content: "";
     display: table; }
-  @media screen and (min-width: 768px) {
-    .feature-contents h2 {
-      text-align: center; } }
-  @media screen and (min-width: 768px) {
-    .feature-contents .contents .diagram-right {
-      float: left;
-      display: block;
-      margin-right: 2.3576515979%;
-      width: 48.821174201%;
-      postion: relative;
-      float: right; }
-      .feature-contents .contents .diagram-right:last-child {
-        margin-right: 0; } }
-  .feature-contents .contents .diagram-right img {
+  .feature-contents .contents img {
     max-width: 100%; }
-  @media screen and (min-width: 768px) {
-    .feature-contents .contents .details-left {
-      float: left;
-      display: block;
-      margin-right: 2.3576515979%;
-      width: 48.821174201%;
-      margin: 5% 0;
-      float: left;
-      padding: 0 50px 0 0; }
-      .feature-contents .contents .details-left:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 768px) {
-    .feature-contents .contents .diagram-left {
-      float: left;
-      display: block;
-      margin-right: 2.3576515979%;
-      width: 48.821174201%;
-      postion: relative;
-      float: left; }
-      .feature-contents .contents .diagram-left:last-child {
-        margin-right: 0; } }
-  .feature-contents .contents .diagram-left img {
-    max-width: 100%; }
-  @media screen and (min-width: 768px) {
-    .feature-contents .contents .details-right {
-      float: left;
-      display: block;
-      margin-right: 2.3576515979%;
-      width: 48.821174201%;
-      margin: 5% 0;
-      float: right;
-      padding: 0 0 50px 0; }
-      .feature-contents .contents .details-right:last-child {
-        margin-right: 0; } }
   .feature-contents .contents .video {
     position: relative;
     padding-bottom: 56.25%;
