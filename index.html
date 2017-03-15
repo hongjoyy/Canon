@@ -18,10 +18,11 @@
    <link rel="stylesheet" href="css/app.css">
    <link rel="stylesheet" href="css/font-awesome.css">
    <link rel="stylesheet" href="css/animate.css">
-
-
+   <link rel="stylesheet" href="css/flickity.min.css">
 
 </head>
+
+
 <body>
 
 <header>
@@ -133,7 +134,25 @@
 </section>
 
 <!-- Photo Gallery -->
-
+<section class="photo-gallery">
+  <div class="photos">
+    <div class="carousel-cell">
+      <img src="images/gallery_cafe.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img src="images/gallery_flowers.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img src="images/gallery_italy.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img src="images/gallery_girls.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img src="images/gallery_river.jpg">
+    </div>
+  </div>
+</section>
 
 <!-- Specifications -->
 
@@ -192,24 +211,25 @@
 
 <!-- Reviews -->
 <section class="reviews">
-  <div class="wrapper">
-    <div class="product-review">
-  <div class="carousel-cell">
-    <img src="images/photofocus_logo.png">
-    <h3>For me, the Canon 5D MK III is a keeper. Highly recommended. I can even see some wildlife and sports shooters finding this to be a good compromise if they can’t afford the 1DX. It’s that fast.</h3>
-  </div>
-  <div class="carousel-cell">
-    <img src="">
-    <h3>This is a fine camera capable of making real-world images as good as or better than any other DSLR currently available, and it has some significant advantages over both the 5D2 and even the 1Ds3.
-    </h3>
-  </div>
-  <div class="carousel-cell">
-    <img src="images/imaging_resource_logo.png">
-    <h3>
-      As one of the true superstar digital SLRs retailing for a medium-high starting price, the Canon 5D Mark III deserves close scrutiny, and it's lived up to our expectations.
-    </h3>
-  </div>
-</div>
+  <div class="product-review">
+    <div class="main-carousel" data-flickity='{freeScroll: true; setGallerySize: false}'>
+      <div class="carousel-cell">
+        <img src="images/photofocus_logo.png">
+        <p>For me, the Canon 5D MK III is a keeper. Highly recommended. I can even see some wildlife and sports shooters finding this to be a good compromise if they can’t afford the 1DX. It’s that fast.
+        </p>
+      </div>
+      <div class="carousel-cell">
+        <img src="http://placehold.it/200x60">
+        <p>This is a fine camera capable of making real-world images as good as or better than any other DSLR currently available, and it has some significant advantages over both the 5D2 and even the 1Ds3.
+        </p>
+      </div>
+      <div class="carousel-cell">
+        <img src="http://placehold.it/200x60">
+        <p>
+          As one of the true superstar digital SLRs retailing for a medium-high starting price, the Canon 5D Mark III deserves close scrutiny, and it's lived up to our expectations.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -264,3 +284,21 @@
 
 </body>
 </html>
+
+<!-- Script -->
+
+  <script src="js/flickity.pkgd.min.js"></script>
+  <script type="text/javascript">
+      var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity( elem, {
+      // options
+      cellAlign: 'left',
+      contain: true
+    });
+
+    // element argument can be a selector string
+    //   for an individual element
+    var flkty = new Flickity( '.main-carousel', {
+      // options
+    });
+</script>
