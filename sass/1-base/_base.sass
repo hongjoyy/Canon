@@ -18,7 +18,7 @@ body
 
 .cart
   margin: 0 auto
-  @include span-columns(6)
+  @include grid-column(6)
   a:hover
     color: $white
 
@@ -60,8 +60,10 @@ a:hover
   color: $red
 
 .wrapper
-  @include outer-container
+  +grid-container
+  margin: 0 auto
   padding: 0 1.25em
+  max-width: $max-site-width
 
 .hero
   margin: 0 0 100px 0
